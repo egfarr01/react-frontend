@@ -63,7 +63,7 @@ class CreateBookComponent extends Component {
             <div>
                 <div className = "container">
                     <div className = "row">
-                        <div className = "card col -md-6 offset-md-3">
+                        <div className = "card col -md-6">
                             <h3 className="text-center">Add Book</h3>
                             <div className = "card-body">
                             <form onSubmit={this.handleSubmit}>
@@ -153,8 +153,8 @@ class CreateBookComponent extends Component {
                                         onChange={this.changeAuthorHandler} />
                                 </div>
                                 </label>
-                                <input className="btn btn-primary" type="submit" value="Submit" />
-                                <Link className="btn btn-primary" to="/">Cancel</Link>
+                                <input className="btn" type="submit" value="Submit" />
+                                <Link className="btn" to="/">Cancel</Link>
                             </form>
                             </div>
                         </div>

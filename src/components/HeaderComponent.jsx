@@ -12,8 +12,9 @@ class HeaderComponent extends Component {
         return (
             <div>
                 <header>
-                    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-                        <div className="navbar-brand">BookStore App</div>
+                    <nav>
+                        <div className="App-header">Book Boss</div>
+                        <div className="App-subheading">A beautiful place to browse books</div>
                     </nav>
 
                 </header>

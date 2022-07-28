@@ -22,10 +22,10 @@ class ListBooksComponent extends Component {
     render() {
         return (
             <div>
-                <h2 className="text-center">Top Ten Bestsellers</h2>
                 <div className = "row">
-                    <Link className="btn btn-primary" to="/create-book">Add Book</Link>
+                    <Link className="btn" to="/create-book">Add a Book!</Link>
                 </div>
+                <h2 className="header">Top Ten Bestsellers</h2>
                 <div className = "row">
                     <table className = "table table-striped table-bordered">
                         <thead>

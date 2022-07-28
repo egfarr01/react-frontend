@@ -8,7 +8,7 @@ import FooterComponent from './components/FooterComponent';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Router>
           <HeaderComponent />
           <div className="container">
