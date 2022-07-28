@@ -24,6 +24,16 @@
   color: white;
 }
 
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +46,4 @@
     transform: rotate(360deg);
   }
 }
+
